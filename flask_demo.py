@@ -8,4 +8,4 @@ def serve_static(filename):
     return app.send_static_file(filename)
 
 
-app.run()
+app.run(host='0.0.0.0', port=5000)

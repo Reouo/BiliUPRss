@@ -14,6 +14,3 @@ COPY . .
 
 # 暴露 Flask 应用程序的端口
 EXPOSE 5000
-
-# 设置容器启动时运行的命令
-CMD ["python", "main.py"]
